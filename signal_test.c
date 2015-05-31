@@ -3,6 +3,11 @@
 #include <stdlib.h>
 
 void sig_int(int signo);
+void sig_int2(int signo)
+{
+    printf("I'm signal 2\n");
+    sleep(2);
+}
 
 int main()
 {
@@ -14,6 +19,7 @@ int main()
         exit(1);
     }
 
+    signal(SIGINT, sig_int2);
     sigemptyset(&waitmask);
     sigaddset(&waitmask, SIGUSR1);
     
