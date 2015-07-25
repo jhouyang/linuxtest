@@ -1,0 +1,7 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =5
+let g:netrw_dirhist_1='/Users/jouyang/gtpool_plus/src/a.out.dSYM'
+let g:netrw_dirhist_2='/Users/jouyang/programs/packageTwo'
+let g:netrw_dirhist_3='/Users/jouyang/gtpool_plus/src'
+let g:netrw_dirhist_4='/Users/jouyang/threadpool/.git'
+let g:netrw_dirhist_5='/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home'
